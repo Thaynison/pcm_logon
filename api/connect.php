@@ -7,10 +7,10 @@ header("Access-Control-Allow-Credentials: true");
 
 date_default_timezone_set('America/Sao_Paulo');
 
-$servername = "190.115.197.83";
-$username = "u89165_sz2xssQuRo";
-$password = "bHSOP+E=V+RP@0cf9rLw5xGl";
-$dbname = "s89165_minecraft";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
